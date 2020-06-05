@@ -1,0 +1,223 @@
+
+/*.carousel{
+  margin-top: 50px;
+}
+.carousel-inner{
+  height: 300px;
+}
+.carousel-caption{
+  color: black;
+  top: 50%;
+  }
+
+*/
+
+
+ 
+.navbar{
+	background-color: #1e2c4e !important;
+}
+.nav-link{
+	color: white !important;
+	margin: 0px 10px 0px 10px;
+
+}
+
+ #psl:hover{
+
+  background-color: #1e2c4e !important;
+ 
+}
+
+a:hover{
+
+	color: #fd784f !important;
+     transition-duration: 0.4s;
+
+}
+.logo-head{
+	display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 1px;
+
+ }
+
+ .footer-2nd{
+    width: 100%;
+    height: 70px;
+  	background-color: #1e2c4e;
+  	text-align: center;
+ 	  color: white;
+    padding-top: 20px
+ }
+  .header-1st{
+    width: 100%;
+    height: 0 auto;
+    background-color: #111;
+    text-align: left;
+    color: white;
+    /*padding-top: 3px;*/
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: center;
+ }
+
+   
+.card{
+  margin-left: 0px;
+   margin-right: 0px;
+    margin-bottom: 35px;
+    border: hidden;
+ }
+ .card-img-top{
+   height: 250px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 4.19);
+
+ }
+ .navbar-toggler{
+  background-color: white !important;
+  color: white !important;
+ }
+
+.btn-info{
+  float: right;
+  background-color: orange;
+}
+
+
+
+
+.img-circular{
+ width: 200px;
+ height: 200px;
+ 
+ background-size: cover;
+ border-radius: 50%;
+ margin-top: 50px;
+  display: block;
+    margin: 0 auto;
+ margin-bottom:20px;
+ display: block;
+}
+
+ .achieve{
+  height: auto;
+  width: 100%;
+  background-color: #1e2c4e;
+  padding: 100px;
+   color: white;
+  margin-top: 50px;
+
+ }
+ 
+/*
+  @media (min-width: 307px) {
+  .control-indicator-krraha {
+       margin-bottom: -2rem !important;
+  }
+  }*/
+ 
+@media (min-width: 590px) {
+  .control-krraha-previous,.control-krraha-next {
+  margin-bottom:110px; 
+  }
+  }
+
+
+
+@media (max-width: 558) {
+  .control-krraha {
+   display: block;
+    margin: 0 auto ; 
+  }
+  }
+@media (min-width: 320px) {
+  .control-krraha-img{
+   height: 220px !important;
+  }
+
+
+
+ @media (min-width: 311px) {
+  h2{
+  font-size: 20px !important;
+  }
+
+@media (min-width: 377px) {
+  h2{
+  font-size: 30px !important;
+  }
+
+ 
+
+/*
+@media (max-width: 649px) {
+    .br {
+      display: block;
+       padding-top: 5px;
+       padding-bottom: 15px;
+     }
+}
+ */
+
+
+
+
+
+  @media (min-width: 320px) {
+  .control-krraha-map{
+   height: 240px !important;
+  }
+  @media (min-width: 360px) {
+  .control-krraha-img{
+   height: 300px !important;
+  }
+
+
+   @media (min-width: 770px) {
+  .control-krraha-img{
+   height: 400px !important;
+  }
+}
+@media (min-width: 650px) {
+  .control-krraha-map{
+   height: 400px !important;
+  }
+ 
+ 
+@media (max-width: 765px) {
+  .control-krraha-input {
+    width: 220px !important;
+  }
+  }
+
+
+   @media (min-width: 800px) {
+  .control-krraha-map{
+   height: 600px !important;
+  }
+
+
+
+@media (max-width: 455px) {
+  .control-krraha-input {
+    width: 160px !important;
+  }
+  }
+
+
+/* 
+@media (max-width: 394px) {
+    .br {
+       display: block;
+       padding-top: 05px;
+       padding-bottom: 10px;
+     }
+}
+ 
+*/
+

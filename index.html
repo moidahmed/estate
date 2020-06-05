@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+        <div>
+         <div class="header-1st">
+          <span>Office: A-0/2, Usman Terrace, Ispahani Road, Gulshan-e-Iqbal Karachi </span>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <!--<a class="navbar-brand" href="#">Navbar w/ text</a>-->   
+        <a href="index.html"> 
+        <img src="images/logo.png"></a> 
+        <span class="logo-head" ><!--THE ESTATE--> SPEED LINKS</span>  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+          <span class="navbar-text">
+                 <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About-Us</a>
+            </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Properties</a>
+                <div class="dropdown-menu" style="background-color:  #1e2c4e ; border: hidden; ">
+                  <a class="dropdown-item" href="sale.html" id="psl" style=" color: white !important ;" onmouseover="this.style.color='#fd784f';" onmouseout="this.style.color='white';">Sale Houses</a>
+
+                  <a class="dropdown-item" href="rent.html" id="psl" style=" color: white !important" onmouseover="this.style.color='#fd784f';" onmouseout="this.style.color='white' ;">Rent Houses</a>
+                  
+                </div>
+              </li>
+           <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacts</a>
+            </li>
+            
+          </ul> 
+          </span>
+        </div>
+      </nav>
+
+		   
+
+      
+
+
+<!--slider start-->
+          	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fancy Luxury House At DHA Society</h5>
+        <p>For more information visit featured properties</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Old Fashion House At DHA Society</h5>
+        <p>For more information visit featured properties</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Newly Renovated House At DHA Society</h5>
+        <p>For more information visit featured properties</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--slider end-->
+  <div class="container">
+    <div class="row"><!--padding-bottom: 10px; padding-top: 10px; -->
+         <div class="col-md-12 col-sm-12" style="margin-top: 40px; margin-bottom: 20px; display: block; padding: 8px ;  background-color: #1e2c4e; text-align: center"  >
+              <span class="col-md-04">
+                 <select style="margin:  13px;">
+                  <option style="padding:10px;">Karachi</option> 
+                 </select>
+             </span>
+             <span class="col-md-04 ">
+                 <input class="control-krraha-input" type="text" name="location" placeholder="Enter Your Location" style="width: 70%">
+             </span>
+             <span class="col-md-04  "  > 
+                 <button  style="color: white; background-color: orange;  border-radius: 20%">Buy</button>
+                 <button  style="color: white; background-color: orange; border-radius: 20%">Rent</button>
+             </span>
+          </div>
+       </div>
+   </div>
+
+    <div class="container">
+    <div class="row">
+         <div class="col-md-12" style="margin-top: 40px; margin-bottom: 20px" >
+                 <h2 style="font-family: 'Merriweather', serif; font-weight: 600; text-align: center"><span style="color: #1e2c4e">FEATURED PROPERTIES</span></h2>
+                  <hr style="border-width: 5px ; width: 65px !important; background-color: #ff4300">
+           </div>
+        </div>
+    </div>
+
+
+
+      <div class="container">
+        <div class="row ">
+          
+ 
+
+            <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px ;margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/slider1.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay">
+                <a href="#" class="btn btn-info">FOR SALE</a>
+                <h4 class="card-title">625 S. Berendo St</h4>
+                <p class="card-text">Town House in Los Angeles</p>
+                <a href="#" class="btn btn-primary">3 CRORES PKR</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px ;margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/1.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay">
+                <a href="#" class="btn btn-info">FOR SALE</a>
+                <h4 class="card-title">625 S. Berendo St</h4>
+                <p class="card-text">Town House in Los Angeles</p>
+                <a href="#" class="btn btn-primary">3 CRORES PKR</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px ;margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/2.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay">
+                <a href="#" class="btn btn-info">FOR RENT</a>
+                <h4 class="card-title">625 S. Berendo St</h4>
+                <p class="card-text">Town House in Los Angeles</p>
+                <a href="#" class="btn btn-primary">3 CRORES PKR</a>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px ;margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/3.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay">
+                <a href="#" class="btn btn-info">FOR RENT</a>
+                <h4 class="card-title">625 S. Berendo St</h4>
+                <p class="card-text">Town House in Los Angeles</p>
+                <a href="#" class="btn btn-primary">3 CRORES PKR</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px ;margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/4.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay">
+                <a href="#" class="btn btn-info">FOR SALE</a>
+                <h4 class="card-title">625 S. Berendo St</h4>
+                <p class="card-text">Town House in Los Angeles</p>
+                <a href="#" class="btn btn-primary">3 CRORES PKR</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px ;margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/5.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay">
+                <a href="#" class="btn btn-info">FOR SALE</a>
+                <h4 class="card-title">625 S. Berendo St</h4>
+                <p class="card-text">Town House in Los Angeles</p>
+                <a href="#" class="btn btn-primary">3 CRORES PKR</a>
+              </div>
+            </div>
+
+         
+           
+        </div>
+      </div>
+
+
+       
+       
+           <div class="container">
+    <div class="row">
+         <div class="col-md-12" style="margin-top: 40px; margin-bottom: 20px" >
+                 <h2 style="font-family: 'Merriweather', serif; font-weight: 600; text-align: center"><span style="color: #1e2c4e">OUR SERVICES</span></h2>
+                  <hr style="border-width: 5px ; width: 65px !important; background-color: #ff4300">
+           </div>
+        </div>
+    </div>
+
+    <!--our services strt-->
+     <div class="container">
+        <div class="row">
+          
+
+
+            <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px; display: block;  margin: 0 auto ; margin-bottom: 40px;">
+              <img class="card-img-top" src="images/white.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay" style="text-align: center; margin-top: 40px">
+                <img src="images/research.png" style="height: 30px;
+                 width: 30px;">
+                 <h4 class="card-title">Research Stubburs</h4>
+                 <a href="#" class="btn btn-primary">LEARN MORE..</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px;margin: 0 auto ; margin-bottom: 40px; ">
+              <img class="card-img-top" src="images/white.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay" style="text-align: center; margin-top: 40px">
+                <img src="images/sold.png" style="height: 30px;
+                 width: 30px;">
+                 <h4 class="card-title">Sold Houses</h4>
+                 <a href="#" class="btn btn-primary">LEARN MORE..</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px;margin: 0 auto ; margin-bottom: 40px; ">
+              <img class="card-img-top" src="images/white.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay" style="text-align: center; margin-top: 40px">
+                <img src="images/cctv.png" style="height: 30px;
+                 width: 30px;">
+                 <h4 class="card-title">Security Periority</h4>
+                 <a href="#" class="btn btn-primary">LEARN MORE..</a>
+              </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px;margin: 0 auto ; margin-bottom: 40px; ">
+              <img class="card-img-top" src="images/white.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay" style="text-align: center; margin-top: 40px">
+                <img src="images/rent.png" style="height: 30px;
+                 width: 30px;">
+                 <h4 class="card-title">Rent Houses</h4>
+                 <a href="#" class="btn btn-primary">LEARN MORE..</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px;margin: 0 auto ; margin-bottom: 40px; ">
+              <img class="card-img-top" src="images/white.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay" style="text-align: center; margin-top: 40px">
+                <img src="images/family.png" style="height: 30px;
+                 width: 30px;">
+                 <h4 class="card-title">Well known Families</h4>
+                 <a href="#" class="btn btn-primary">LEARN MORE..</a>
+              </div>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px;margin: 0 auto ; margin-bottom: 40px; ">
+              <img class="card-img-top" src="images/white.jpg" alt="Card image" style="width:100%">
+              <div class="card-img-overlay" style="text-align: center; margin-top: 40px">
+                <img src="images/support.png" style="height: 30px;
+                 width: 30px;">
+                 <h4 class="card-title">24/7 Available</h4>
+                 <a href="#" class="btn btn-primary">LEARN MORE..</a>
+              </div>
+            </div>
+
+          </div></div>
+    <!--our services end-->
+
+
+
+
+
+
+
+
+
+<!--client review strt-->
+     <div class="container">
+        <div class="row">
+           <div class="col-md-12" style="margin-top: 40px;  margin-bottom: -20px" >
+             <h2 style="font-family: 'Merriweather', serif; font-weight: 600; text-align: center"><span style="color: #1e2c4e">Here’s what just some of our clients have said</span>
+             </h2>
+                  <hr style="border-width: 5px ; width: 65px !important; background-color: #ff4300">
+           </div>
+        </div>
+    </div>
+
+
+ <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin-top: 50px;">
+  <!-- <ol class="carousel-indicators control-indicator-krraha-"  >
+    <li  style="background-color: black !important ; color: orange !important" data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li  style="background-color: black !important ; color: orange !important" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li  style="background-color: black !important ; color: orange !important" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li  style="background-color: black !important ; color: orange !important" data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+  </ol>-->
+  <div class="carousel-inner" style=" height: 230px;">
+    <div class="carousel-item active">
+      <div class="carousel-caption" style="color: black;top: 50%;">
+        <h3>Hussain Ali</h3>
+        <p>“ Very friendly and efficient. I saw an apartment posting on a Wednesday and already the coming Friday I had signed the lease. “</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption" style="color: black;top: 50%;">
+        <h3>Hamza Asif</h3>
+        <p>“ Really great customer service. The agents reply within two hours, the handover of the apartment was very clear and easy. I found an apartment relatively quickly and I'm very satisfied with the quality of it. “</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption" style="color: black;top: 50%;">
+        <h3>Sutlan Abbas</h3>
+        <p>“ Speed Links Associates services is on point when i needed house at rent in a short time period as my landlord about to sell his property they arrange house as per my requirements. “</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-caption" style="color: black;top: 50%;">
+        <h3>SM Sadiq</h3>
+        <p >“ I really enjoyed the whole process of renting my flat throught Speed Links Assoicatiates It was really helpful to have the best service during such a crazy covid-19 time. “ </p>
+      </div>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon control-krraha-previous" style="background-image: url(images/back.png);"      aria-hidden="true"></span>
+    <span class="sr-only"  >Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon control-krraha-next" style="background-image: url(images/next.png);" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--client review end-->
+
+
+
+
+
+
+
+
+
+
+<!--our agents strt-->
+  <div class="container">
+    <div class="row">
+         <div class="col-md-12" style="margin-top: 40px; margin-bottom: 20px" >
+                 <h2 style="font-family: 'Merriweather', serif; font-weight: 600; text-align: center"><span style="color: #1e2c4e">OUR AGENTS</span></h2>
+                  <hr style="border-width: 5px ; width: 65px !important; background-color: #ff4300">
+           </div>
+        </div>
+    </div>
+
+      <div class="container">
+        <div class="row">
+          
+
+
+            <div class="  col-sm-12 col-md-6 col-lg-4 " style="width:500px ; display: block;
+    margin: 0 auto ;">
+              <div class="img-circular" style=" background-image: url('images/agent1.jpg');"></div>
+              <p style="text-align: center;   "><b>Director Marketing</b><br> <br> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 " style="width:500px; display: block;
+    margin: 0 auto ;">
+              <div class="img-circular" style="background-image: url('images/agent2.jpg');"></div>
+               <p style="text-align: center;    "><b> Assistant Agent </b><br><br> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+             <div class="card col-sm-12 col-md-6 col-lg-4 control-krraha" style="width:500px; display: block;
+    margin: 0 auto ;">
+              <div class="img-circular" style="background-image: url('images/agent3.jpg');"></div>
+               <p style="text-align: center;   "><b>Call Assist Agent </b><br><br> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            </div>
+            
+            
+          </div></div>
+<!--our agents end-->
+
+
+         <!--2nd footer strt-->
+        <div>
+         <div class="footer-2nd">
+          <h4>Copyrights @2020</h4>
+         </div>
+        </div>
+        <!--2nd footer end-->
+    </div>
+
+</body>
+</html>
